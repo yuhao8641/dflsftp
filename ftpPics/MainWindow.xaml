@@ -1,0 +1,13 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="ftpPics.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Button Content="选择文件" HorizontalAlignment="Right" Height="31" Margin="0,0,97,45" VerticalAlignment="Bottom" Width="108" />
+		<TextBox Height="29" Margin="57,0,138,116" TextWrapping="Wrap" Text="请选择要上传的文件" VerticalAlignment="Bottom"/>
+	</Grid>
+</Window>
